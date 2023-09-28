@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "uni-network-2" {
-  source  = "app.terraform.io/matelang/uni-network-2/aws"
+  source  = "app.terraform.io/arni/uni-network-2/aws"
   version = "1.0.0"
 
   cidr        = var.cidr
